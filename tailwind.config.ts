@@ -72,11 +72,11 @@ const config: Config = {
           },
         },
         meteor: {
-          "0%": { transform: "rotate(215deg) translateX(0)", opacity: 1 },
-          "70%": { opacity: 1 },
+          "0%": { transform: "rotate(215deg) translateX(0)", opacity: '1' },
+          "70%": { opacity: '1' },
           "100%": {
             transform: "rotate(215deg) translateX(-400px)",
-            opacity: 0,
+            opacity: '0',
           },
         },
       },
